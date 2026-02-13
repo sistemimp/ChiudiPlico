@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./img/logo.ico" />
   <title>Chiudi Plico</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -98,8 +99,30 @@
       border-radius: 10px;
     }
 
+    .btn-group .btn-check:checked + .btn.btn-outline-secondary {
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #198754;
+      --bs-btn-border-color: #198754;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #157347;
+      --bs-btn-hover-border-color: #146c43;
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: #146c43;
+      --bs-btn-active-border-color: #13653f;
+    }
+
     #file[readonly] {
       background-color: #f8fafc;
+    }
+
+    .file-drop-target {
+      border-radius: 10px;
+      transition: box-shadow 0.15s ease, transform 0.15s ease;
+    }
+
+    .file-drop-target.is-dragover {
+      box-shadow: 0 0 0 0.24rem rgba(25, 135, 84, 0.22);
+      transform: translateY(-1px);
     }
 
     .status-box {
@@ -128,13 +151,13 @@
             <h1 class="app-title">Chiudi Plico · Etichettatura Plichi</h1>
             <p class="app-subtitle">Carica il file XLSX, imposta i parametri di lavorazione e genera l'output.</p>
           </div>
-          <button type="submit" form="form" class="btn btn-primary px-4">Elabora</button>
+          <button type="submit" form="form" class="btn btn-primary px-4" id="submitBtn">Elabora</button>
         </div>
 
         <form id="form" class="row g-3 g-md-4">
           <div class="col-12">
             <label class="form-label" for="file">File XLSX</label>
-            <div class="input-group">
+            <div class="input-group file-drop-target" id="fileDropTarget">
               <input id="file" name="file" type="text" class="form-control" placeholder="Seleziona un file .xlsx" readonly required />
               <button type="button" id="pick" class="btn btn-outline-secondary">Scegli file</button>
             </div>
@@ -168,6 +191,17 @@
           <div class="col-12 col-md-3">
             <label class="form-label" for="spessore">Spessore (mm)</label>
             <input id="spessore" name="spessore" type="number" min="1" step="0.1" class="form-control" placeholder="es. 4" required />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label d-block" for="plichiA4-3">Chiudiplico per foglio A4</label>
+            <div class="btn-group" role="group" aria-label="Chiudiplico per foglio A4">
+              <input type="radio" class="btn-check" name="plichiA4" id="plichiA4-2" value="2" checked />
+              <label class="btn btn-outline-secondary" for="plichiA4-2">2 su A4</label>
+
+              <input type="radio" class="btn-check" name="plichiA4" id="plichiA4-3" value="3" />
+              <label class="btn btn-outline-secondary" for="plichiA4-3">3 su A4</label>
+            </div>
           </div>
 
         </form>

@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Codex",
+  "author": "Alex Olivieri",
   "license": "ISC",
   "type": "commonjs",
   "build": {
@@ -21,6 +21,7 @@
       "preload.js",
       "renderer.js",
       "index.html",
+      "img/**/*",
       "bacini.json",
       "run-electron.js",
       "package.json",
@@ -30,6 +31,7 @@
       "buildResources": "build"
     },
     "win": {
+      "icon": "img/logo.ico",
       "target": [
         {
           "target": "nsis",

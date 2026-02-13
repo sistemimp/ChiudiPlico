@@ -29,6 +29,7 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1100,
     height: 760,
+    icon: path.join(__dirname, 'img', 'logo.ico'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
@@ -67,8 +68,12 @@ ipcMain.handle('process-file', async (_evt, payload) => {
     codiceLavorazione,
     pesoInvio, // grammi
     spessoreInvio, // millimetri
+    plichiPerFoglioA4,
   } = payload || {};
   if (!filePath) throw new Error('Nessun file selezionato');
+  const plichiPerFoglio = [2, 3].includes(Number(plichiPerFoglioA4))
+    ? Number(plichiPerFoglioA4)
+    : 3;
 
   const workbook = new ExcelJS.Workbook();
   await workbook.xlsx.readFile(filePath);
@@ -1119,8 +1124,8 @@ ipcMain.handle('process-file', async (_evt, payload) => {
 
   etichetteRows.forEach((row) => sheet2.addRow(row));
 
-  // Foglio per stampa 3-up A4:
-  // ordine intercalato a terzi per ottenere mazzetti progressivi dopo il taglio.
+  // Foglio per stampa A4:
+  // ordine intercalato in 2 o 3 colonne per ottenere mazzetti progressivi dopo il taglio.
   const sheet3 = sheet2.workbook.addWorksheet('X_Stampa_Etichette');
   sheet3.addRow([
     'Centro impostazione',
@@ -1136,7 +1141,7 @@ ipcMain.handle('process-file', async (_evt, payload) => {
     'Codice lavorazione',
     'Barcode',
   ]);
-  createThreeUpPrintOrder(etichetteRows).forEach((row) => sheet3.addRow(row));
+  createA4PrintOrder(etichetteRows, plichiPerFoglio).forEach((row) => sheet3.addRow(row));
 
   // Rebuild sheet 1 in desired order + plico info AFTER renumber
   let output = sheet2.workbook;
@@ -1332,15 +1337,18 @@ function splitForFinalPlichi(arr, maxSize, minSize) {
 }
 
 
-function createThreeUpPrintOrder(rows) {
+function createA4PrintOrder(rows, plichiPerFoglio = 3) {
   const total = Array.isArray(rows) ? rows.length : 0;
   if (!total) return [];
 
-  const block = Math.ceil(total / 3);
+  const slots = [2, 3].includes(Number(plichiPerFoglio))
+    ? Number(plichiPerFoglio)
+    : 3;
+  const block = Math.ceil(total / slots);
   const ordered = [];
 
   for (let i = 0; i < block; i++) {
-    for (let section = 0; section < 3; section++) {
+    for (let section = 0; section < slots; section++) {
       const idx = i + section * block;
       if (idx < total) ordered.push(rows[idx]);
     }
