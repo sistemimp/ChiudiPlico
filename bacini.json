@@ -1,0 +1,1222 @@
+[
+  {
+    "bacino": "ANCONA",
+    "start": "60121",
+    "end": "60131"
+  },
+  {
+    "bacino": "ANCONA",
+    "start": "60010",
+    "end": "60048"
+  },
+  {
+    "bacino": "ANCONA",
+    "start": "63100",
+    "end": "63100"
+  },
+  {
+    "bacino": "ANCONA",
+    "start": "63010",
+    "end": "63096"
+  },
+  {
+    "bacino": "ANCONA",
+    "start": "63900",
+    "end": "63900"
+  },
+  {
+    "bacino": "ANCONA",
+    "start": "63811",
+    "end": "63858"
+  },
+  {
+    "bacino": "ANCONA",
+    "start": "62100",
+    "end": "62100"
+  },
+  {
+    "bacino": "ANCONA",
+    "start": "62010",
+    "end": "62039"
+  },
+  {
+    "bacino": "ANCONA",
+    "start": "61121",
+    "end": "61122"
+  },
+  {
+    "bacino": "ANCONA",
+    "start": "61010",
+    "end": "61049"
+  },
+  {
+    "bacino": "BARI",
+    "start": "70121",
+    "end": "70132"
+  },
+  {
+    "bacino": "BARI",
+    "start": "70010",
+    "end": "70057"
+  },
+  {
+    "bacino": "BARI",
+    "start": "72100",
+    "end": "72100"
+  },
+  {
+    "bacino": "BARI",
+    "start": "72010",
+    "end": "72029"
+  },
+  {
+    "bacino": "BARI",
+    "start": "76121",
+    "end": "76121"
+  },
+  {
+    "bacino": "BARI",
+    "start": "76011",
+    "end": "76017"
+  },
+  {
+    "bacino": "BARI",
+    "start": "76123",
+    "end": "76123"
+  },
+  {
+    "bacino": "BARI",
+    "start": "76125",
+    "end": "76125"
+  },
+  {
+    "bacino": "BARI",
+    "start": "71121",
+    "end": "71122"
+  },
+  {
+    "bacino": "BARI",
+    "start": "71010",
+    "end": "71051"
+  },
+  {
+    "bacino": "BARI",
+    "start": "73100",
+    "end": "73100"
+  },
+  {
+    "bacino": "BARI",
+    "start": "73010",
+    "end": "73059"
+  },
+  {
+    "bacino": "BARI",
+    "start": "75100",
+    "end": "75100"
+  },
+  {
+    "bacino": "BARI",
+    "start": "75010",
+    "end": "75029"
+  },
+  {
+    "bacino": "BARI",
+    "start": "85100",
+    "end": "85100"
+  },
+  {
+    "bacino": "BARI",
+    "start": "85010",
+    "end": "85059"
+  },
+  {
+    "bacino": "BARI",
+    "start": "74121",
+    "end": "74123"
+  },
+  {
+    "bacino": "BARI",
+    "start": "74010",
+    "end": "74028"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "40121",
+    "end": "40141"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "40010",
+    "end": "40069"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "44121",
+    "end": "44124"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "44010",
+    "end": "44049"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "47121",
+    "end": "47122"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "47010",
+    "end": "47043"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "47521",
+    "end": "47522"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "41121",
+    "end": "41126"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "41010",
+    "end": "41059"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "48121",
+    "end": "48125"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "48010",
+    "end": "48034"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "47921",
+    "end": "47924"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "47814",
+    "end": "47869"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "43121",
+    "end": "43126"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "43010",
+    "end": "43059"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "42121",
+    "end": "42124"
+  },
+  {
+    "bacino": "BOLOGNA",
+    "start": "42010",
+    "end": "42049"
+  },
+  {
+    "bacino": "CAGLIARI",
+    "start": "09121",
+    "end": "09134"
+  },
+  {
+    "bacino": "CAGLIARI",
+    "start": "09010",
+    "end": "09069"
+  },
+  {
+    "bacino": "SARDEGNA",
+    "start": "08100",
+    "end": "08100"
+  },
+  {
+    "bacino": "SARDEGNA",
+    "start": "08010",
+    "end": "08049"
+  },
+  {
+    "bacino": "SARDEGNA",
+    "start": "09170",
+    "end": "09170"
+  },
+  {
+    "bacino": "SARDEGNA",
+    "start": "09070",
+    "end": "09099"
+  },
+  {
+    "bacino": "SARDEGNA",
+    "start": "07100",
+    "end": "07100"
+  },
+  {
+    "bacino": "SARDEGNA",
+    "start": "07010",
+    "end": "07052"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "93100",
+    "end": "93100"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "93010",
+    "end": "93019"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "95121",
+    "end": "95131"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "95010",
+    "end": "95062"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "94100",
+    "end": "94100"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "94010",
+    "end": "94028"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "98121",
+    "end": "98168"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "98020",
+    "end": "98079"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "97100",
+    "end": "97100"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "97010",
+    "end": "97019"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "96100",
+    "end": "96100"
+  },
+  {
+    "bacino": "CATANIA",
+    "start": "96010",
+    "end": "96026"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "52100",
+    "end": "52100"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "52010",
+    "end": "52048"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "50121",
+    "end": "50145"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "50010",
+    "end": "50068"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "06121",
+    "end": "06135"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "06010",
+    "end": "06089"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "51100",
+    "end": "51100"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "51010",
+    "end": "51039"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "59100",
+    "end": "59100"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "59011",
+    "end": "59026"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "53100",
+    "end": "53100"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "53011",
+    "end": "53049"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "05100",
+    "end": "05100"
+  },
+  {
+    "bacino": "FIRENZE",
+    "start": "05010",
+    "end": "05039"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "16121",
+    "end": "16167"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "16010",
+    "end": "16049"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "18100",
+    "end": "18100"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "18010",
+    "end": "18039"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "19121",
+    "end": "19137"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "19010",
+    "end": "19038"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "17100",
+    "end": "17100"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "17010",
+    "end": "17058"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "88100",
+    "end": "88100"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "88020",
+    "end": "88071"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "87100",
+    "end": "87100"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "87010",
+    "end": "87076"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "88900",
+    "end": "88900"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "88811",
+    "end": "88842"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "89121",
+    "end": "89135"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "89010",
+    "end": "89069"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "89900",
+    "end": "89900"
+  },
+  {
+    "bacino": "GENOVA",
+    "start": "89812",
+    "end": "89868"
+  },
+  {
+    "bacino": "PESCHIERA",
+    "start": "26100",
+    "end": "26100"
+  },
+  {
+    "bacino": "PESCHIERA",
+    "start": "26010",
+    "end": "26049"
+  },
+  {
+    "bacino": "PESCHIERA",
+    "start": "26900",
+    "end": "26900"
+  },
+  {
+    "bacino": "PESCHIERA",
+    "start": "26811",
+    "end": "26867"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "20001",
+    "end": "20099"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "20900",
+    "end": "20900"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "20811",
+    "end": "20886"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "27100",
+    "end": "27100"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "27010",
+    "end": "27062"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "29121",
+    "end": "29122"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "29010",
+    "end": "29031"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "25121",
+    "end": "25136"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "25010",
+    "end": "25089"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "24121",
+    "end": "24129"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "24010",
+    "end": "24069"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "22100",
+    "end": "22100"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "22010",
+    "end": "22079"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "23900",
+    "end": "23900"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "23801",
+    "end": "23899"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "28100",
+    "end": "28100"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "28010",
+    "end": "28079"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "23100",
+    "end": "23100"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "23009",
+    "end": "23041"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "21100",
+    "end": "21100"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "21009",
+    "end": "21062"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "28921",
+    "end": "28925"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "28801",
+    "end": "28899"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "46100",
+    "end": "46100"
+  },
+  {
+    "bacino": "MILANO",
+    "start": "46010",
+    "end": "46051"
+  },
+  {
+    "bacino": "NAPOLI",
+    "start": "83100",
+    "end": "83100"
+  },
+  {
+    "bacino": "NAPOLI",
+    "start": "83010",
+    "end": "83059"
+  },
+  {
+    "bacino": "NAPOLI",
+    "start": "82100",
+    "end": "82100"
+  },
+  {
+    "bacino": "NAPOLI",
+    "start": "82010",
+    "end": "82038"
+  },
+  {
+    "bacino": "NAPOLI",
+    "start": "81100",
+    "end": "81100"
+  },
+  {
+    "bacino": "NAPOLI",
+    "start": "81010",
+    "end": "81059"
+  },
+  {
+    "bacino": "NAPOLI",
+    "start": "80121",
+    "end": "80147"
+  },
+  {
+    "bacino": "NAPOLI",
+    "start": "80010",
+    "end": "80081"
+  },
+  {
+    "bacino": "NAPOLI",
+    "start": "84121",
+    "end": "84135"
+  },
+  {
+    "bacino": "NAPOLI",
+    "start": "84010",
+    "end": "84099"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "35121",
+    "end": "35143"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "35010",
+    "end": "35049"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "45100",
+    "end": "45100"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "45010",
+    "end": "45039"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "36100",
+    "end": "36100"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "36010",
+    "end": "36078"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "32100",
+    "end": "32100"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "32010",
+    "end": "32047"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "31100",
+    "end": "31100"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "31010",
+    "end": "31059"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "30121",
+    "end": "30176"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "30010",
+    "end": "30039"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "34170",
+    "end": "34170"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "34070",
+    "end": "34079"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "33170",
+    "end": "33170"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "33070",
+    "end": "33099"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "34121",
+    "end": "34151"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "34010",
+    "end": "34018"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "33100",
+    "end": "33100"
+  },
+  {
+    "bacino": "PADOVA",
+    "start": "33010",
+    "end": "33061"
+  },
+  {
+    "bacino": "PALERMO",
+    "start": "92100",
+    "end": "92100"
+  },
+  {
+    "bacino": "PALERMO",
+    "start": "92010",
+    "end": "92044"
+  },
+  {
+    "bacino": "PALERMO",
+    "start": "90121",
+    "end": "90151"
+  },
+  {
+    "bacino": "PALERMO",
+    "start": "90010",
+    "end": "90090"
+  },
+  {
+    "bacino": "PALERMO",
+    "start": "91100",
+    "end": "91100"
+  },
+  {
+    "bacino": "PALERMO",
+    "start": "91010",
+    "end": "91032"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "86100",
+    "end": "86100"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "86010",
+    "end": "86049"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "66100",
+    "end": "66100"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "66010",
+    "end": "66054"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "86170",
+    "end": "86170"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "86070",
+    "end": "86097"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "67100",
+    "end": "67100"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "67010",
+    "end": "67069"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "65121",
+    "end": "65129"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "65010",
+    "end": "65029"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "64100",
+    "end": "64100"
+  },
+  {
+    "bacino": "PESCARA",
+    "start": "64010",
+    "end": "64049"
+  },
+  {
+    "bacino": "PISA",
+    "start": "58100",
+    "end": "58100"
+  },
+  {
+    "bacino": "PISA",
+    "start": "58010",
+    "end": "58055"
+  },
+  {
+    "bacino": "PISA",
+    "start": "57121",
+    "end": "57128"
+  },
+  {
+    "bacino": "PISA",
+    "start": "57014",
+    "end": "57039"
+  },
+  {
+    "bacino": "PISA",
+    "start": "55100",
+    "end": "55100"
+  },
+  {
+    "bacino": "PISA",
+    "start": "55010",
+    "end": "55064"
+  },
+  {
+    "bacino": "PISA",
+    "start": "54100",
+    "end": "54100"
+  },
+  {
+    "bacino": "PISA",
+    "start": "54010",
+    "end": "54038"
+  },
+  {
+    "bacino": "PISA",
+    "start": "56121",
+    "end": "56128"
+  },
+  {
+    "bacino": "PISA",
+    "start": "56010",
+    "end": "56048"
+  },
+  {
+    "bacino": "ROMA",
+    "start": "03100",
+    "end": "03100"
+  },
+  {
+    "bacino": "ROMA",
+    "start": "03010",
+    "end": "03049"
+  },
+  {
+    "bacino": "ROMA",
+    "start": "04100",
+    "end": "04100"
+  },
+  {
+    "bacino": "ROMA",
+    "start": "04010",
+    "end": "04031"
+  },
+  {
+    "bacino": "ROMA",
+    "start": "02100",
+    "end": "02100"
+  },
+  {
+    "bacino": "ROMA",
+    "start": "02010",
+    "end": "02049"
+  },
+  {
+    "bacino": "ROMA",
+    "start": "00010",
+    "end": "00079"
+  },
+  {
+    "bacino": "ROMA",
+    "start": "01100",
+    "end": "01100"
+  },
+  {
+    "bacino": "ROMA",
+    "start": "01010",
+    "end": "01039"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "15121",
+    "end": "15122"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "15010",
+    "end": "15079"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "11100",
+    "end": "11100"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "11010",
+    "end": "11029"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "14100",
+    "end": "14100"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "14010",
+    "end": "14059"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "12100",
+    "end": "12100"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "12010",
+    "end": "12089"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "10121",
+    "end": "10156"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "10010",
+    "end": "10099"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "13900",
+    "end": "13900"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "13811",
+    "end": "13899"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "13100",
+    "end": "13100"
+  },
+  {
+    "bacino": "TORINO",
+    "start": "13010",
+    "end": "13060"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "39100",
+    "end": "39100"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "39010",
+    "end": "39058"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "38121",
+    "end": "38123"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "38010",
+    "end": "38099"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "37121",
+    "end": "37142"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "37010",
+    "end": "37089"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00100",
+    "end": "00132"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00133",
+    "end": "00119"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00118",
+    "end": "00159"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00162",
+    "end": "00124"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00120",
+    "end": "00123"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00176",
+    "end": "00177"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00131",
+    "end": "00185"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00163",
+    "end": "00167"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00134",
+    "end": "00198"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00199",
+    "end": "00179"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00137",
+    "end": "00139"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00181",
+    "end": "00183"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00141",
+    "end": "00145"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00155",
+    "end": "00158"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00171",
+    "end": "00175"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00188",
+    "end": "00189"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00191",
+    "end": "00193"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00195",
+    "end": "00197"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00127",
+    "end": "00128"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00135",
+    "end": "00136"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00152",
+    "end": "00154"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "00186",
+    "end": "00187"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "20100",
+    "end": "20124"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "20125",
+    "end": "20126"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "20121",
+    "end": "20123"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "20144",
+    "end": "20145"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "20129",
+    "end": "20148"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "20149",
+    "end": "20146"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "20133",
+    "end": "20139"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "20154",
+    "end": "20159"
+  },
+  {
+    "bacino": "VERONA",
+    "start": "20161",
+    "end": "20162"
+  }
+]

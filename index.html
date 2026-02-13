@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chiudi Plico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --cp-bg-start: #f5f7fb;
+      --cp-bg-end: #fdf6ee;
+      --cp-ink: #1f2937;
+      --cp-primary: #0b57d0;
+      --cp-primary-dark: #0842a1;
+      --cp-card-border: rgba(15, 23, 42, 0.08);
+      --cp-muted: #6b7280;
+    }
+
+    body {
+      font-family: "Manrope", "Segoe UI", sans-serif;
+      color: var(--cp-ink);
+      background:
+        radial-gradient(900px 420px at 100% -10%, rgba(11, 87, 208, 0.10), transparent 65%),
+        radial-gradient(700px 360px at -10% 100%, rgba(245, 158, 11, 0.10), transparent 60%),
+        linear-gradient(150deg, var(--cp-bg-start), var(--cp-bg-end));
+      min-height: 100vh;
+    }
+
+    .app-wrap {
+      max-width: 980px;
+    }
+
+    .app-hero {
+      border: 1px solid var(--cp-card-border);
+      border-radius: 18px;
+      background: linear-gradient(130deg, #ffffff, #f8fbff);
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+      overflow: hidden;
+    }
+
+    .app-hero__stripe {
+      height: 8px;
+      background: linear-gradient(90deg, #0b57d0, #0284c7, #f59e0b);
+    }
+
+    .app-title {
+      font-size: clamp(1.15rem, 2vw, 1.6rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin: 0;
+    }
+
+    .app-subtitle {
+      color: var(--cp-muted);
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .form-label {
+      font-weight: 700;
+      color: #374151;
+      margin-bottom: 0.4rem;
+    }
+
+    .form-control,
+    .form-select {
+      border-radius: 10px;
+      border-color: #dbe4f0;
+      padding-top: 0.62rem;
+      padding-bottom: 0.62rem;
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+      border-color: #9ec5fe;
+      box-shadow: 0 0 0 0.2rem rgba(11, 87, 208, 0.15);
+    }
+
+    .btn-primary {
+      --bs-btn-bg: var(--cp-primary);
+      --bs-btn-border-color: var(--cp-primary);
+      --bs-btn-hover-bg: var(--cp-primary-dark);
+      --bs-btn-hover-border-color: var(--cp-primary-dark);
+      --bs-btn-active-bg: var(--cp-primary-dark);
+      --bs-btn-active-border-color: var(--cp-primary-dark);
+      --bs-btn-padding-y: 0.65rem;
+      --bs-btn-font-weight: 700;
+      border-radius: 10px;
+    }
+
+    .btn-outline-secondary {
+      --bs-btn-padding-y: 0.62rem;
+      --bs-btn-font-weight: 600;
+      border-radius: 10px;
+    }
+
+    #file[readonly] {
+      background-color: #f8fafc;
+    }
+
+    .status-box {
+      border-radius: 12px;
+      border: 1px solid #cfe3ff;
+      background: linear-gradient(180deg, #f8fbff, #f1f8ff);
+      color: #0f172a;
+      min-height: 52px;
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 768px) {
+      .app-hero {
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container py-4 py-lg-5 app-wrap">
+    <section class="app-hero">
+      <div class="app-hero__stripe"></div>
+      <div class="p-3 p-md-4 p-lg-5">
+        <div class="mb-4 d-flex flex-wrap justify-content-between align-items-start gap-3">
+          <div>
+            <h1 class="app-title">Chiudi Plico · Etichettatura Plichi</h1>
+            <p class="app-subtitle">Carica il file XLSX, imposta i parametri di lavorazione e genera l'output.</p>
+          </div>
+          <button type="submit" form="form" class="btn btn-primary px-4">Elabora</button>
+        </div>
+
+        <form id="form" class="row g-3 g-md-4">
+          <div class="col-12">
+            <label class="form-label" for="file">File XLSX</label>
+            <div class="input-group">
+              <input id="file" name="file" type="text" class="form-control" placeholder="Seleziona un file .xlsx" readonly required />
+              <button type="button" id="pick" class="btn btn-outline-secondary">Scegli file</button>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="centro">Centro di impostazione</label>
+            <input id="centro" name="centro" class="form-control" list="centri" placeholder="Es. ROMA CMP" required />
+            <datalist id="centri">
+              <option value="PESCARA CMP" selected></option>
+              <option value="ANCONA CMP"></option>
+              <option value="ASCOLI CMP"></option>
+            </datalist>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="nome">Nome lavorazione</label>
+            <input id="nome" name="nome" class="form-control" placeholder="Es. Campagna Primavera" required />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label class="form-label" for="codice">Codice lavorazione</label>
+            <input id="codice" name="codice" class="form-control" placeholder="Codice interno/commessa"  required />
+          </div>
+
+          <div class="col-12 col-md-3">
+            <label class="form-label" for="peso">Peso (g)</label>
+            <input id="peso" name="peso" type="number" min="1" step="1" class="form-control" placeholder="es. 50" required />
+          </div>
+
+          <div class="col-12 col-md-3">
+            <label class="form-label" for="spessore">Spessore (mm)</label>
+            <input id="spessore" name="spessore" type="number" min="1" step="0.1" class="form-control" placeholder="es. 4" required />
+          </div>
+
+        </form>
+
+        <div class="status-box mt-4 p-3" id="status">Pronto!</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./renderer.js"></script>
+</body>
+</html>
