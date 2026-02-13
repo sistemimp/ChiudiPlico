@@ -5,14 +5,50 @@
   "main": "main.js",
   "scripts": {
     "start": "node run-electron.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Codex",
   "license": "ISC",
   "type": "commonjs",
+  "build": {
+    "appId": "it.chiudiplico.app",
+    "productName": "Chiudi Plico",
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "bacini.json",
+      "run-electron.js",
+      "package.json",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "build"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
   "dependencies": {
-    "electron": "^40.4.0",
     "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "electron": "^40.4.0",
+    "electron-builder": "^26.0.12"
   }
 }
